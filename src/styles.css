@@ -61,7 +61,7 @@ strong {
 
 /* ---- testing css animated search ----- */
 .formHeader input[type="text"] {
-  width: 100px;
+  width: 80px;
   text-align: right;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
