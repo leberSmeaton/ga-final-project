@@ -715,9 +715,3 @@ h4 {
     flex-direction: column;
   }
 }
-
-/*@media screen and (max-width: 800px) {
-  .mySidebar {
-    flex-direction: column;
-  }
-}*/
