@@ -98,25 +98,14 @@ Sidebar
   transition: 2s;
 }
 
+li.sidebarTop {
+  margin-top: 50px;
+}
+
 .socials {
   position: absolute;
   bottom: 0;
-  margin-bottom: 20px;
-}
-
-header {
-  padding: 0 40px 0 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid #d8ebe4;
-}
-
-.headingMain {
-  border-right: 1px solid #d8ebe4;
-  box-sizing: border-box;
-  height: 100%;
-  padding: 0 27% 0 0;
+  margin-bottom: 30px;
 }
 
 button {
@@ -151,6 +140,23 @@ button:hover {
 .sidebarToggle {
   border: none;
   background: none;
+}
+
+/*
+Header
+*/
+header {
+  padding: 0 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #d8ebe4;
+}
+
+.headingMain {
+  border-right: 2px solid #d8ebe4;
+  height: 100%;
+  padding: 0 27% 0 10px;
 }
 
 /* 
@@ -504,6 +510,7 @@ footer {
   align-items: flex-end;
   margin-top: 100px;
   padding-bottom: 50px;
+  border-top: 2px solid #d8ebe4;
 }
 
 /* subscription banner */
